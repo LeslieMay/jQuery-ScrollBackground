@@ -1,0 +1,136 @@
+body {
+    font-size: 100%;
+    font-family: "Roboto", sans-serif;
+    color: #3d3536;
+    background-color: white;
+}
+
+body, html {
+    /* important */
+    height: 100%;
+    background-color: white;
+}
+a {
+    color: #b4d7a8;
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    margin: 0px auto;
+
+    background-color: rgba(255,255,255,0.95);
+    height: 50px;
+    position: fixed;
+    z-index: 2;
+}
+.header>img{
+    padding-top: 15px;
+    float: left;
+    margin-left: 5%;
+}
+.header_nav {
+    float: right;
+    margin-right: 5%;
+    height: 100%;
+
+}
+.header_nav>ul>li{
+    float: left;
+    /*display: inline-block;*/
+    padding: 15px;
+    cursor: pointer;
+}
+.header_nav>ul>li>a{
+    padding: 12px;
+}
+.header_nav>ul>li>a:hover{
+    color: seagreen;
+}
+.content{
+    z-index: 1;
+    position: relative;
+    height: 100%;
+
+}
+.content_bg{
+    position: relative;
+    min-height: 100%;
+
+    z-index: 1;
+}
+.content_bg>h1{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    bottom: auto;
+    right: auto;
+    width: 90%;
+    text-align: center;
+    font-size: 2.875rem;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    color: white;
+    max-width: 1170px;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+.cd-container{
+    width: 90%;
+    margin: 0px auto;
+    max-width: 768px;
+    padding: 8em 0;
+
+}
+.scroll_bg{
+
+    font-size: 1.25rem;
+    line-height: 2;
+    font-weight: 300;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index: 2;
+    min-height: 100%;
+}
+
+.scroll_bg.bgcolor2{
+    background-color: #99a478;
+    color: #3d3536;
+}
+.scroll_bg.bgcolor3{
+     background-color: #b4d7a8;
+     color: #3d3536;
+ }
+.scroll_bg.bgcolor4{
+    background-color: #3d3536;
+    color: #a6989a;
+}
+.bg1{
+    background: url("../img/cd-background-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.bg2{
+    background: url("../img/cd-background-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.bg3{
+    background: url("../img/cd-background-3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.bg4{
+    background: url("../img/cd-background-4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
